@@ -1,0 +1,75 @@
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="200dp"
+                    android:id="@+id/image"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@color/brown">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/lay_id"
+                    android:layout_height="wrap_content"
+                    android:hint="Room ID"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="24dp"
+                    android:layout_below="@id/image"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/lay_kategori"
+                    android:layout_height="wrap_content"
+                    android:hint="Kategori"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_below="@+id/lay_id"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"
+                    />
+
+                <TextView
+                    android:id="@+id/lay_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Harga"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_below="@+id/lay_kategori"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/lay_fasilitas"
+                    android:layout_height="wrap_content"
+                    android:hint="Fasilitas"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="10dp"
+                    android:layout_below="@+id/lay_harga"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="24dp"/>
+
+
+            </RelativeLayout>

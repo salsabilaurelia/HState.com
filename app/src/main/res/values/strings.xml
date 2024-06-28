@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">H-State</string>
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>Deluxe</item>
+        <item>Premium</item>
+        <item>Regular</item>
+        <!-- Add more options as needed -->
+    </string-array>
+</resources>
